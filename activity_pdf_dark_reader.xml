@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#030712"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="القارئ الليلي الذكي - Kenzy PDF"
+        android:textColor="#F3F4F6"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSelectDarkPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اختر مستند للقراءة بالوضع الليلي"
+        android:backgroundTint="#4F46E5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnToggleDarkMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تفعيل / إلغاء العكس الليلي للنصوص"
+        android:backgroundTint="#374151"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#111827"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDarkReaderContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هنا ستظهر صفحة الـ PDF بخلفية سوداء مريحة جداً للعين وخالية من الإجهاد البصري ليلاً..."
+            android:textColor="#9CA3AF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"/>
+    </ScrollView>
+
+</LinearLayout>
