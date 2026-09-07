@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F172A"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دمج ملفات Kenzy PDF"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSelectFilesToMerge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اختر ملفات PDF للدمج"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnExecuteMerge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="دمج الملفات الآن"
+        android:backgroundTint="#10B981"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E293B"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvMergeStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الرجاء اختيار ملفات PDF لبدء عملية الدمج..."
+            android:textColor="#94A3B8"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"/>
+    </ScrollView>
+
+</LinearLayout>
