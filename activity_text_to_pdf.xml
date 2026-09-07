@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F172A"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="كتابة وتحويل نص إلى PDF - Kenzy PDF"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etInputText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E293B"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#94A3B8"
+        android:hint="اكتب أو الصق مقالك أو ملاحظاتك هنا لتحويلها فوراً إلى مستند PDF..."
+        android:gravity="top|start"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGenerateTextPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="حفظ وتحويل النص إلى PDF"
+        android:backgroundTint="#06B6D4"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
